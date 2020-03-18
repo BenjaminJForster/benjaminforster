@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/357f080021.js" crossorigin="anonymous" ></script>
+
+        <title>Kevin Thomas</title>
+    </head>
+
+    <body>
+        <nav class="bg-nav p-2 flex flex-row justify-between">
+            <div class="left text-white flex flex-row py-4 pl-6 items-center">
+                <i class="fab fa-python fa-2x"></i>
+                <h1 class="font-sans pl-2 text-xl">Kevin Thomas</h1>
+                <i class="fas fa-home fa-md ml-4"></i>
+                <h2 class="font-sans pl-1 text-md">Home</h2>
+                <i class="fas fa-folder-open fa-md ml-4"></i>
+                <h2 class="font-sans pl-1 text-md">Projects</h2>
+            </div>
+            <div class="right text-white flex flex-row py-4 pr-6 items-center">
+                <div class="github border-solid border-white border-2 rounded flex flex-row flex-no-wrap items-center px-2 py-1 mx-2">
+                    <i class="fab fa-github fa-md"></i>
+                    <h2 class="font-sans pl-1 text-md">GitHub</h2>
+                </div>
+                <div class="github border-solid border-white border-2 rounded flex flex-row flex-no-wrap items-center px-2 py-1 mx-2">
+                    <i class="fab fa-linkedin fa-md"></i>
+                    <h2 class="font-sans pl-1 text-md">Linkedin</h2>
+                </div>
+            </div>
+        </nav>
+
+        <div class="bg-perfect justify-center">
+            <div class="text flex flex-col justify-center items-center md:pt-40 md:pb-40">
+                <h1 class="text-white font-sans font-medium text-6xl">Hi, I'm <u>Kevin</u>.</h1>
+                <h2 class="text-white font-sans font-light text-3xl">I am <span id="occupation" class="text-white font-sans font-light text-3xl"></span></h2>
+            </div>
+
+            <div class="bg-light">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                  <path fill="#367ec4" fill-opacity="1" d="M0,128L60,112C120,96,240,64,360,74.7C480,85,600,139,720,149.3C840,160,960,128,1080,112C1200,96,1320,96,1380,96L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path>
+                </svg>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+
+        <script>
+
+            var typed = new Typed('#occupation', {
+                strings: [
+                    "<strong>a developer</strong>.",
+                    "<strong>a student</strong>.",
+                    "<strong>an author</strong>."
+                ],
+                typeSpeed: 40,
+                backSpeed: 30,
+                showCursor: false,
+                loop: true
+            });
+        </script>
+
+    </body>
+
+</html>
