@@ -15,6 +15,6 @@ cd trustedmercury.github.io
 and then make the necessary changes.
 
 ### Contact
-If you want to contact me -
-Mail - trustedmercury@gmail.com
+If you want to contact me -  
+Mail - trustedmercury@gmail.com  
 Discord - TrustedMercury#1953
